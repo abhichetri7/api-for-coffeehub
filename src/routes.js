@@ -69,7 +69,7 @@ router.get('/users', async (req, res) => {
 
 router.get('/health', async (req, res) => {
   try {
-    res.json("All good, server is running");
+    res.json("All good, server  is running");
   } catch (error) {
     res.status(500).json({ message: 'Error fetching users', error: error.message });
   }
