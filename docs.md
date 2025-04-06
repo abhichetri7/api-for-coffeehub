@@ -171,9 +171,3 @@ or
    - Retrieve cart items
    - Update cart items
    - Delete cart items
-
-## Environment Setup
-Create a Postman environment with the following variables:
-- `BASE_URL`: http://localhost:3000
-- `USERNAME`: your test username
-- `ITEM_ID`: (to be set after adding an item to cart)
